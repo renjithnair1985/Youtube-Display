@@ -1,13 +1,16 @@
 YoutubeGenerator
 ================
 
-Introduction goes here.
+Youtube generator allows you to display the youtube videos in your view files.
 
 
 Example
 =======
+If you have url, embed code or video id of a youtube video then simply do the following.
 
-Example goes here.
+<%= generate_youtube(url, {:width=>"150px",:height => "150px"}) %>
+
+You can also use embed code or video id instead of url.
 
 
-Copyright (c) 2010 [name of plugin creator], released under the MIT license
+Copyright (c) 2010 [Renjith P Nair], released under the MIT license
